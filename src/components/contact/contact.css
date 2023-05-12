@@ -1,0 +1,89 @@
+.app__contact{
+  margin: 2rem;
+}
+
+
+.app__contact-header{
+  margin: 1rem;
+  text-align: center;
+}
+
+
+
+.app__contact-header h3{
+color: var( --color-primary);
+}
+
+.app__contact-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+.email{
+  background: var(  --color-bg-varient);
+  padding: 1rem;
+margin: 1rem;
+border-radius: .6rem;
+justify-content: center;
+align-items: center;
+text-align: center;
+cursor: pointer;
+}
+
+.app__contact-input{
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background: transparent;
+}
+
+.app__contact-input input{
+padding: 1rem;
+width: 25rem;
+background: transparent;
+border: 1px solid var(  --color-primary-varient);
+border-radius: .5rem;
+color: var( --color-light);
+
+}
+
+.app__contact-input textarea{
+  padding: 1rem;
+  width: 25rem;
+  background: transparent;
+  border: 1px solid var(  --color-primary-varient);
+  border-radius: .5rem;
+  color: var( --color-light);
+  
+  }
+
+
+  @media screen and (max-width:600px) {
+    .app__contact-container{
+      display: flex;
+      flex-direction: column;
+     
+    }
+
+    
+.app__contact-input input{
+  padding: 1rem;
+  width: 18rem;
+ 
+  
+  }
+
+      
+.app__contact-input textarea{
+  padding: 1rem;
+  width: 18rem;
+ 
+  
+  }
+  }

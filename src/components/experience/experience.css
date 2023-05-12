@@ -1,0 +1,76 @@
+.app__experience{
+  margin: 3rem;
+}
+
+.app__experience-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ .app__experience-header h3{
+ color: var( --color-primary);
+}
+
+.app_experience-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:transparent ;
+  border-radius: 1rem;
+  
+}
+
+.app__experience-content-card{
+  border: 1px solid var(  --color-primary-varient);
+  border-radius: 1rem;
+ margin: 1rem;
+ padding: 1rem;
+}
+
+.experience-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+row-gap: 2rem;
+padding: 0 2rem;
+}
+
+.app__experience-content-card:hover{
+  background: var(  --color-primary-varient);
+  border: none;
+  transition: all 400ms ease;
+}
+
+.experience-details{
+  display: flex;
+  gap: 1rem;
+
+}
+.icon-star{
+  color: var(--color-primary);
+  margin-top: .3rem;
+}
+
+.header{
+  justify-content: center;
+  text-align: center;
+  color: var(--color-primary);
+  margin: 1rem;
+}
+
+
+@media screen and (max-width:1024px) {
+  .app_experience-content{
+    display: flex;
+    flex-direction: column;
+   
+  }
+}
+
+@media screen and (max-width:600px) {
+  
+  }
